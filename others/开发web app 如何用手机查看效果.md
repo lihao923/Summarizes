@@ -1,0 +1,34 @@
+# 开发web app如何用手机查看效果
+
+## 1.打开cmd命令行，输入指令ipconfig
+
+![](images/webapp-0.png)
+
+
+
+
+## 2.用ip地址代替localhost
+
+![](images/webapp-1.png)
+
+
+
+
+
+## 3.复制当前url到草料二维码网站中生成一个二维码
+
+![](images/webapp-2.png)
+
+
+
+
+
+## 4.通过手机浏览器扫描二维码即可查看web app效果
+
+![](images/webapp-3.png)
+
+
+
+
+
+
