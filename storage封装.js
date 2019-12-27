@@ -5,7 +5,7 @@
  * @param {String} value 存储的键值
  */
 
-export default storage = {
+const storage = {
 	set: (way, key, value) => {
 		if(way === 'localStorage') {
 			localStorage.setItem(key, JSON.stringify(value));
@@ -37,16 +37,4 @@ export default storage = {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default storage;
