@@ -20,7 +20,7 @@ const storage = {
 			return JSON.parse(sessionStorage.getItem(key));
 		}
 	},
-	remove: (way, key) {
+	remove: (way, key) => {
 		if(way === 'localStorage') {
 			localStorage.removeItem(key);
 		} else {
